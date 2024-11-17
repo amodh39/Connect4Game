@@ -1,0 +1,20 @@
+from enum import Enum
+
+class GameState(Enum):
+    CREDITS = -3
+    NO_ACTION = -2
+    QUIT = -1
+    MENU = 0
+    CREATE_GAME = 1
+    JOIN_ANY_GAME = 2
+    JOIN_GAME_WITH_CODE = 3
+    JOIN_GAME_WITH_ENTERED_CODE = 4
+    COPY = 5
+    PASTE = 6
+    CLEAR = 7
+    SUBMIT_NAME = 8
+    SELECT_RED_TOKEN = 9
+    SELECT_YELLOW_TOKEN = 10
+    PLAY_AGAIN_YES = 11
+    PLAY_AGAIN_NO = 12
+    CONNECT4_SERVICE_FOUND = 13
